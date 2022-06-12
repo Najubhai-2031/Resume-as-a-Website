@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/83b017687f.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>About, MySelf!</title>
+    <style>
+        col-lg-4{
+            margin-right: 20000px;
+        }
+        .checked {
+        color: #0d6efd;
+        }
+
+        .col{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+    </style>
+  </head>
+  <body>
+    {% csrf_token %}
+    {% load static %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <ul>
+                <ul>
+                    <a class="navbar-brand" href="#"><h2>Bhadarka Najubhai Masharibhai</h2></a>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href = "mailto:ahirnm266@gmail.com?subject = Feedback&body = Message" style="text-decoration: none; color: black;">ahirnm266@gmail.com</a> &nbsp;&nbsp;&nbsp;
+                    <i class="fa-solid fa-phone"></i>
+                    <a href = "tel:+91 9265082606" style="text-decoration: none; color: black;">+91 92650 82606</a>&nbsp;&nbsp;&nbsp;
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href = "https://www.google.com/maps/place/DANILIMDA+POLICE+LINE,+Danilimda+Police+Line+Rd,+Bhavna+Colony,+Behrampura,+Ahmedabad,+Gujarat+380022/@23.000123,72.5787869,17z/data=!3m1!4b1!4m5!3m4!1s0x395e85bb5edb3345:0x5d6968e661c7d919!8m2!3d23.0005576!4d72.580742" style="text-decoration: none; color: black;">Danilimda, Ahmedabad</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </ul>
+            <form class="d-flex">
+              
+                <button class="btn btn-outline-primary" type="submit"><a href="http://127.0.0.1:8000/login/" style="text-decoration: none; color: black;">Sign In</a></button>&nbsp;&nbsp;&nbsp;
+                <button class="btn btn-outline-primary" type="submit"><a href="http://127.0.0.1:8000/signup/" style="text-decoration: none; color: black;">Sign Up</a></button>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <br>
+        <br>
+        <div class="text-center">
+            <img class="bd-placeholder-img rounded-circle" src="{% static 'NJ.jpg' %}" alt="" width="200" height="200" role="img" aria-label="Placeholder: 200x200">
+            <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+
+            <h2> Mr. Bhadarka Najubhai M. </h2>
+            <p>Hello Sir/Mam, <br> My name is Bhadarka Najubhai.
+                I have completed my Graduation in B.Sc Chemistry from Gujarat University, Ahmedabad.</p>
+            <p><a class="btn btn-secondary" style="background-color:#0d6efd; border-color:#0d6efd;" href="http://127.0.0.1:8000/about/">View details »</a></p>
+        </div>
+
+        <br>
+        <hr class="featurette-divider">
+        <br>
+
+        <div class="row featurette">
+            <div class="col-md-7">
+            <h1 class="featurette-heading">&nbsp;Summary <span class="text-muted"></span></h1><br>
+            <p class="lead">&nbsp;&nbsp;I am familiar with <b>Python Programming Language</b>, I also know <b>Django and Flask Framework</b>. &nbsp;&nbsp;Apart form this I also have knowledge of <b>HTML, CSS and MySQL Database</b>. I have No work &nbsp;&nbsp;Experience but I am able to work in this field. Thank You...</p>
+            </div>
+        </div>
+
+        <br>
+        <hr class="featurette-divider">
+        <br>
+
+        <div class="row featurette">
+            <div class="col-md-7">
+            <h1 class="featurette-heading">&nbsp;Persnol Details <span class="text-muted"></span></h1><br>
+            <h5>&nbsp;&nbsp;Email Address</h5>
+            <i class="fa-solid fa-envelope"></i>
+            <a href = "mailto:ahirnm266@gmail.com?subject = Feedback&body = Message" style="text-decoration: none; color: #0d6efd;">ahirnm266@gmail.com</a> &nbsp;&nbsp;&nbsp;
+            <br>
+            <br>
+            <h5>&nbsp;&nbsp;Phone Number</h5>
+            <i class="fa-solid fa-phone"></i>
+            <a href = "tel:+91 9265082606" style="text-decoration: none; color: #0d6efd;">+91 92650 82606</a>&nbsp;&nbsp;&nbsp;
+            <br>
+            <br>
+            <h5>&nbsp;&nbsp;Address</h5>
+            <i class="fa-solid fa-location-dot"></i>
+            <a href = "https://www.google.com/maps/place/DANILIMDA+POLICE+LINE,+Danilimda+Police+Line+Rd,+Bhavna+Colony,+Behrampura,+Ahmedabad,+Gujarat+380022/@23.000123,72.5787869,17z/data=!3m1!4b1!4m5!3m4!1s0x395e85bb5edb3345:0x5d6968e661c7d919!8m2!3d23.0005576!4d72.580742" style="text-decoration: none; color: #0d6efd;">Danilimda, Ahmedabad</a>
+            <br>
+            <br>
+            <h5>&nbsp;&nbsp;Linkedin</h5>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href = "https://www.linkedin.com/in/narin-ahir-1482721a7" style="text-decoration: none; color: #0d6efd;">linkedin.com/in/narin-ahir</a>
+            </div>
+        </div>
+
+        <br>
+        <hr class="featurette-divider">
+
+        <br>
+        <h1>&nbsp;Skills</h1>
+        <br>
+        <div class="row" style="text-align: center;">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Hard Skills</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <ul>
+                    <li class="lead"><b>Python</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>Django Framework</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>Flask Framework</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    </li>
+                    <li class="lead"><b>HTML</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    </li>
+                    <li class="lead"><b>CSS</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>MySQL</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col text-center">
+              <div class="card mb-4 rounded-3 shadow-sm text-center">
+                <div class="card-header py-3 text-center">
+                  <h4 class="my-0 fw-normal text-center">Soft Skills</h4>
+                </div>
+                <div class="card-body text-center">
+                  <ul class="list-unstyled mt-3 mb-4 text-center">
+                    <ul>
+                    <li class="lead"><b>Team Work</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>Communication</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    </li>
+                    <li class="lead"><b>Accuracy</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>Positive Attitude</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span></p>
+                    </li>
+                    <li class="lead"><b>Management</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    </li>
+                    <li class="lead"><b>Leadership</b> <!-- Add icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    </li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+        </div>
+
+        <br>
+        <hr class="featurette-divider">
+
+        <br>
+        <div class="row">
+            <div class="col">
+                <h1 class="featurette-heading">&nbsp;Languages <span class="text-muted"></span></h1><br>
+                <div class="table-responsive" style="width: 100%;">
+                    <table class="table text-center" style="width: 100%;">
+                      <thead>
+                        <tr>
+                          <th style="width: 34%;"></th>
+                          <th style="width: 22%;">English</th>
+                          <th style="width: 22%;">Hindi</th>
+                          <th style="width: 22%;">Gujarati</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Read</th>
+                          <td><i class="fa-solid fa-check"></i></td>
+                          <td><i class="fa-solid fa-check"></i></td>
+                          <td><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Write</th>
+                          <td><i class="fa-solid fa-check"></i></td>
+                          <td><i class="fa-solid fa-check"></i></td>
+                          <td><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Speak</th>
+                            <td><i class="fa-solid fa-check"></i></td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                            <td><i class="fa-solid fa-check"></i></td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+        
+        <br>
+        <hr class="featurette-divider">
+
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h1 class="featurette-heading">&nbsp;Education <span class="text-muted"></span></h1><br>
+                <p class="lead"><h5>&nbsp;&nbsp;Bachelor of Science in Chemistry</h5><br>&nbsp;&nbsp;&nbsp;MG Science Institute,Ahmedabad</p>
+                <li>Graduated with <b>First Class</b> in <b>2020.</b></li>
+            </div>
+        </div>
+
+        <br>
+        <hr class="featurette-divider">
+
+        <br>
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h1 class="featurette-heading"> &nbsp;Work Experience <span class="text-muted"></span></h1><br>
+                <p class="lead">&nbsp;&nbsp;Currently I have <b>NO WORK EXPERIENCE...</b></p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+  </body>
+</head>

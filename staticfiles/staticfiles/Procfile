@@ -1,0 +1,1 @@
+web: gunicorn loginsystem.wsgi:application --log-file - --log-level debug
